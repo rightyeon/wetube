@@ -1,3 +1,4 @@
+package-lock.json
 node_modules
  # Logs
 logs
@@ -97,5 +98,3 @@ dist
 
 # FuseBox cache
 .fusebox/
-
-package-lock.json
