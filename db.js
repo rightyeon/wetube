@@ -2,9 +2,10 @@ export const videos = [
   {
     id: 349239,
     title: "Awesome",
-    description: "Cant take my eyes off you",
+    description: "Can`t take my eyes off you",
     views: 24,
-    videoFile: "https://archive.org/details/BigBuckBunny_124",
+    videoFile:
+      "https://interactive-examples.mdn.mozilla.net/media/examples/flower.webm",
     creator: {
       name: "Yeon",
       email: "yeon@gmail.com",
@@ -14,12 +15,13 @@ export const videos = [
   {
     id: 11155,
     title: "I Need you",
-    description: "Chhshshs",
+    description: "I love you baby",
     views: 24,
-    videoFile: "https://archive.org/details/BigBuckBunny_124",
+    videoFile:
+      "https://interactive-examples.mdn.mozilla.net/media/examples/flower.webm",
     creator: {
       name: "Perfect",
-      email: "yeon@gmail.com",
+      email: "yeon@nullee.com",
       id: 55737
     }
   },
@@ -28,11 +30,25 @@ export const videos = [
     title: "Super",
     description: "Cant take my eyes off you",
     views: 24,
-    videoFile: "https://archive.org/details/BigBuckBunny_124",
+    videoFile:
+      "https://interactive-examples.mdn.mozilla.net/media/examples/flower.webm",
     creator: {
-      name: "Yeon",
-      email: "yeon@gmail.com",
+      name: "Geo",
+      email: "baccc@gmail.com",
       id: 5515
+    }
+  },
+  {
+    id: 88790,
+    title: "Deeper",
+    description: "Bad Guy",
+    views: 234,
+    videoFile:
+      "https://interactive-examples.mdn.mozilla.net/media/examples/flower.webm",
+    creator: {
+      name: "Billie",
+      email: "lflf@naver.com",
+      id: 40303
     }
   }
 ];
