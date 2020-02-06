@@ -12,6 +12,7 @@ import routes from "./routes";
 const app = express();
 
 app.set("view engine", "pug");
+app.use("/uploads", express.static("uploads")); // 주어진 디렉토리에 file을 전달하는 새로운 미들웨어 fn
 
 // create Middle Ware (execute top to bottom)
 app.use(helmet());
@@ -19,7 +20,6 @@ app.use(cookieParser());
 app.use(bodyParser.json()); // json 으로 전송하면 서버에서도 json을 읽을 수 있게 함
 app.use(bodyParser.urlencoded({ extended: true })); // html 을 전송하면 html을 읽을 수 있게 함
 app.use(morgan("dev")); // morgan is record everything
-
 // local middle ware 는 지역변수를 전역변수로 사용하도록 만들어준다
 app.use(localsMiddleware);
 
